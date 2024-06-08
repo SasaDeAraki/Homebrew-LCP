@@ -1,0 +1,31 @@
+[
+    {
+        "id": "hcim_impulsionador",
+        "name": "Impulsionador v0.8 !! INSTÁVEL !!",
+        "sp": 1,
+        "allowed_types": [
+            "Melee"
+        ],
+        "source": "default",
+        "license": "Steel Blasters",
+        "license_level": 0,
+        "effect": "Este modificador pode ser ativado e desativado usando uma <b>Quick action</b>. Ao atacar com o modificador ativo adicione <b>+1d6</b> ao dano dessa arma; juntamente a isso, role <b>1d6</b> para cada vez que tiver usado este modificador desde o último descanso, contando com o uso atual, caso algum desses dados seja um <b>1</b>, a mount dessa arma é destruída. Caso consiga realizar 6 ataques com essa arma sem destruír a mount, o mod sobreaquece e desativa, mas a mount continua intacta.",
+        "description": "O Impulsionador é um modificador muito desejado. Seria, se ele não fosse completamente imprevisível, da mesma forma que você pode ser capaz de infringir um dano devastador equipando um desses, você pode acabar destruindo completamente a sua arma.",
+        "tags": [
+            {
+                "id": "tg_unique"
+            },
+            {
+                "id": "tg_quick_action"
+            },
+            {
+                "id": "tg_limited",
+                "val": 6
+            }
+        ],
+        "added_tags": [
+            
+        ],
+        "license_id": "mf_default"
+      }
+]

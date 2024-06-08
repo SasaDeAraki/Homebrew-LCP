@@ -1,0 +1,23 @@
+[
+    {
+        "id": "hcif_impulsionador",
+        "name": "Impulsionador v0.8 !! INSTÁVEL !!",
+        "origin": {
+            "type": "Template",
+            "name": "Modificações",
+            "base": false
+        },
+        "locked": false,
+        "type": "System",
+        "effect": "Ao atacar com uma arma Melee, pode se ativar usando uma {Free action}, concedendo +1d6 ao dano da arma.", 
+        "tags": [
+            {
+                "id": "tg_limited",
+                "val": 3
+            },
+            {
+                "id": "tg_free_action"
+            }
+        ]
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "id": "hcit_modificacoes",
+        "name": "Modificações",
+        "description": "Modificações encontradas por todo o planeta de Integra.",
+        "base_features": [],
+        "optional_features": [
+            "hcif_impulsionador"
+        ],
+        "power": 100
+    }
+]
