@@ -19,5 +19,44 @@
                 "id": "tg_free_action"
             }
         ]
+    },
+    {
+        "id": "hcif_ebulir",
+        "name": "Ebulir",
+        "origin": {
+            "type": "Template",
+            "name": "Modificações",
+            "base": false
+        },
+        "locked": false,
+        "type": "System",
+        "effect": "Libera grandes quantias de calor, aquecendo a água, todos que estiverem submergidos recebem <b>3 Heat</b> e devem fazer um teste de <b>Enginnering</b>, ou recebem </b>Shredded<b>. Uma vez por turno um alvo afetado por shredded deste modo pode rolar um teste de <b>Enginnering</b> no ínicio de cada rodada para encerrar este efeito. Caso um alvo já esteja <b>Shredded</b> e seja atingido por ferver de novo ele é <b>Stunned</b>.", 
+        "tags": [
+            {
+                "id": "tg_recharge",
+                "val": 5
+            },
+            {
+                "id": "tg_full_action"
+            }
+        ]
+    },
+    {
+        "id": "hcif_desmantelar",
+        "name": "Desmantelar",
+        "origin": {
+            "type": "Template",
+            "name": "Modificações",
+            "base": false
+        },
+        "locked": false,
+        "type": "Reaction",
+        "trigger": "Um ou mais personagens são <b>Atordoados</b> por <b>Ebulir</b>.",
+        "effect": "Alvos devem suceder em um teste de <b>Agilidade</b> ou receberão <b>1 dano de Estrutura</b>, caso sucedam recebem <b>metade do HP máximo como dano</b>.", 
+        "tags": [
+            {
+                "id": "tg_reaction"
+            }
+        ]
     }
 ]

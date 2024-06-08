@@ -5,7 +5,9 @@
         "description": "Modificações encontradas por todo o planeta de Integra.",
         "base_features": [],
         "optional_features": [
-            "hcif_impulsionador"
+            "hcif_impulsionador",
+            "hcif_ebulir",
+            "hcif_desmantelar"
         ],
         "power": 100
     }
