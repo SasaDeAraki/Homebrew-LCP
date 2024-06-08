@@ -1,6 +1,6 @@
 [
     {
-        "id": "hcif_impulsionador",
+        "id": "hcif_brock_impulsionador",
         "name": "Impulsionador v0.8 !! INSTÁVEL !!",
         "origin": {
             "type": "Template",
@@ -21,7 +21,7 @@
         ]
     },
     {
-        "id": "hcif_ebulir",
+        "id": "hcif_crustachama_ebulir",
         "name": "Ebulir",
         "origin": {
             "type": "Template",
@@ -42,7 +42,7 @@
         ]
     },
     {
-        "id": "hcif_desmantelar",
+        "id": "hcif_crustachama_desmantelar",
         "name": "Desmantelar",
         "type": "Reaction",
         "tags": [

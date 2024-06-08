@@ -1,0 +1,64 @@
+[
+    {
+        "id": "hcipg_carapaca",
+        "name": "MOD: Carapaça",
+        "type": "Gear",
+        "effect": "<p>Permite o uso do <b>Quick Hack: Carapaça</b>.</p>",
+        "actions": [
+        {
+            "name": "Carapaça",
+            "activation": "Quick",
+            "detail": "Cria um campo de força ao redor de alvos com a tag <b>Vehicle</b>. Essa barreira concede <b>4 de sobrevida</b> ao alvo. Quando a barreira for quebrada, personagens adjacentes ao veículo devem realizar um teste de <b>Casco</b> ou recebem <b>Knockback 1</b> e são <b>Derrubados</b>.",
+            "pilot": true
+        }
+        ],
+        "tags": [
+            {
+                "id": "tg_quick_action"
+            },
+            {
+                "id": "tg_limited",
+                "val": 2
+            },
+            {
+                "id": "tg_unique"
+            },
+            {
+                "id": "tg_gear"
+            },
+            {
+                "id": "tg_knockback",
+                "val": 1
+            }
+        ]
+    },
+    {
+        "id": "hcipg_ilusao_menor",
+        "name": "MOD: Ilusão Menor",
+        "type": "Gear",
+        "effect": "<p>Permite o uso de <b>Ilusão Menor</b> como uma <b>Quick action</b>.</p>",
+        "actions": [
+        {
+            "name": "Ilusão Menor",
+            "activation": "Quick",
+            "detail": "Cria uma ilusão de até 2m³ em <b>Range 5</b>. Essas ilusões podem produzir sons baixos, como gritos ou motores menos potentes. Essa ilusão tem +4 para enganar alguém em teste que ela possa ser aplicada.",
+            "pilot": true
+        }
+        ],
+        "tags": [
+            {
+                "id": "tg_quick_action"
+            },
+            {
+                "id": "tg_limited",
+                "val": 1
+            },
+            {
+                "id": "tg_unique"
+            },
+            {
+                "id": "tg_gear"
+            }
+        ]
+    }
+]
